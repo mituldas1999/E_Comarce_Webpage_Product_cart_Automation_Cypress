@@ -17,9 +17,11 @@ describe("pom", () => {
       "body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.authorization-link > a"
     ).click();
 
-    const ln = new Login();
-    ln.setUserName("mituldas751@gmail.com");
-    ln.setPassword("mituldas@#$1999");
-    ln.ClickLogin();
+    cy.fixture("credential").then((data) => {
+      const ln = new Login();
+      ln.setUserName(data.username);
+      ln.setPassword(data.password);
+      ln.ClickLogin();
+    });
   });
 });
