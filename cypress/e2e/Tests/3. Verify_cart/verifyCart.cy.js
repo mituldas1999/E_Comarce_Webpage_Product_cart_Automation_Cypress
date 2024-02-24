@@ -10,5 +10,7 @@ describe("Add to Cart Test", () => {
     const verifyCartitem = new verifyCart();
     verifyCartitem.cartIcon();
     verifyCartitem.verifyCartItems();
+    // verifyCartitem.removeCart();
   });
+
 });
