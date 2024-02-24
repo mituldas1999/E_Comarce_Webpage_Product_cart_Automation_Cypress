@@ -10,5 +10,8 @@ class Login {
   ClickLogin() {
     cy.get("#send2").click();
   }
+  HomePage() {
+    cy.visit("https://magento.softwaretestingboard.com");
+  }
 }
 export default Login;

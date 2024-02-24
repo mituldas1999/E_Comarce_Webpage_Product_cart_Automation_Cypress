@@ -1,25 +1,16 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+import Login from "../e2e/Pages/Login/login";
+
+Cypress.Commands.add("globalLogin", () => {
+  cy.visit("https://magento.softwaretestingboard.com/");
+  cy.get(
+    "body > div.page-wrapper > header > div.panel.wrapper > div > ul > li.authorization-link > a"
+  ).click(); // Update this selector to your login button
+
+  cy.fixture("credential").then((data) => {
+    const login = new Login();
+    login.setUserName(data.username);
+    login.setPassword(data.password);
+    login.ClickLogin();
+    login.HomePage();
+  });
+});
