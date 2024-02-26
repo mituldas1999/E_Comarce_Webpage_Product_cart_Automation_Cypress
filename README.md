@@ -7,7 +7,7 @@ https://github.com/mituldas1999/E_Comarce_Webpage_Product_cart_Automation_Cypres
 
 # Test Summary Report 🚀
 
-## Specs Overview
+## Specs Overview:
 
 <details>
   <summary>1. Login/login.cy.js</summary>
@@ -53,10 +53,10 @@ https://github.com/mituldas1999/E_Comarce_Webpage_Product_cart_Automation_Cypres
   </pre>
 </details>
 
-## Total Summary
+## Total Summary:
 
 <details>
-  <summary>Total Summary</summary>
+  <summary>Total Summary:</summary>
   <pre>
 ╔════════════════════════════════════════════╗
 ║ All Specs Passed!                        ║
