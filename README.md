@@ -9,9 +9,7 @@ https://github.com/mituldas1999/E_Comarce_Webpage_Product_cart_Automation_Cypres
 
 ## Specs Overview:
 
-<details>
-  <summary>1. Login/login.cy.js</summary>
-  <pre>
+1. Login/login.cy.js
 ╔════════════════════════════════════════════╗
 ║ Time: 00:19                              ║
 ║ Tests: 1                                 ║
@@ -20,28 +18,10 @@ https://github.com/mituldas1999/E_Comarce_Webpage_Product_cart_Automation_Cypres
 ║ Pending: -                               ║
 ║ Skipped: -                               ║
 ╚════════════════════════════════════════════╝
-  </pre>
-</details>
 
-<details>
-  <summary>3. Verify_cart/verifyCart.cy.js</summary>
-  <pre>
-╔════════════════════════════════════════════╗
-║ Time: 00:22                              ║
-║ Tests: 1                                 ║
-║ Passing: 1                               ║
-║ Failing: 1                               ║
-║ Pending: -                               ║
-║ Skipped: -                               ║
-╚════════════════════════════════════════════╝
-  </pre>
-</details>
 
-<details>
-  <summary>2. Add_cart/addCart.cy.js</summary>
-  <pre>
+2. Add_cart/addCart.cy.js
 ╔════════════════════════════════
-
 ══════════════════════════════╗
 ║ Time: 00:24                              ║
 ║ Tests: 1                                 ║
@@ -50,14 +30,21 @@ https://github.com/mituldas1999/E_Comarce_Webpage_Product_cart_Automation_Cypres
 ║ Pending: -                               ║
 ║ Skipped: -                               ║
 ╚════════════════════════════════════════════╝
-  </pre>
-</details>
+
+
+3. Verify_cart/verifyCart.cy.js
+╔════════════════════════════════════════════╗
+║ Time: 00:22                              ║
+║ Tests: 1                                 ║
+║ Passing: 1                               ║
+║ Failing: 1                               ║
+║ Pending: -                               ║
+║ Skipped: -                               ║
+╚════════════════════════════════════════════╝
 
 ## Total Summary:
 
-<details>
-  <summary>Total Summary:</summary>
-  <pre>
+Total Summary:
 ╔════════════════════════════════════════════╗
 ║ All Specs Passed!                        ║
 ║ Total Time: 01:06                        ║
@@ -67,6 +54,4 @@ https://github.com/mituldas1999/E_Comarce_Webpage_Product_cart_Automation_Cypres
 ║ Pending: -                               ║
 ║ Skipped: -                               ║
 ╚════════════════════════════════════════════╝
-  </pre>
-</details>
 ```
